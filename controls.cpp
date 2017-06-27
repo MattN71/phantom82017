@@ -4,9 +4,9 @@
 #include "controls.h"
 
 
-#include "libraries/I2Cdev.h" 
-#include "libraries/MPU6050_6Axis_MotionApps20.h" //This header also includes libraries/MPU6050.h
-#include "libraries/helper_3dmath.h"
+#include "src/I2Cdev.h" 
+#include "src/MPU6050_6Axis_MotionApps20.h" //This header also includes libraries/MPU6050.h
+#include "src/helper_3dmath.h"
 
 
 // Degree position the servos will be initialized to during setup
